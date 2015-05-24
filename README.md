@@ -13,39 +13,3 @@ In our python implementation of game we are going to follow Russian rules:
 |cruiser (крейсер) | 3 | 2 |
 |destroyer (эсминец) | 2 | 3 |
 |submarine (подводная лодка) | 1 | 4 |
-
-#### Pyttleship mandatory requirements
- - Implemented with Python 2.7.x.
- - Uses only python standard library.
- - Bases on Peer-to-peer ([P2P]) application architecture.
- - Follows the Model–View–Controller ([MVC]) software architectural pattern.
- - Respects [PEP8].
- - Utilizes [REST], [XML-RPC] or [JSON-RPC] as a communication mechanism (*REST is preferable*).
- - Uses powerful of [OOP] where it makes sense.
- - Provides usefull logging.
- - Can be launched on Linux.
- - Well documented.
-
-#### Pyttleship not mandatory requirements 
- - Can be launched on Windows.
- - Providers game statistics for all/each user.
- - Can be installed in system as python package (setup.py and whl).
- - Covered by unit tests.
- - Game statistics can be expoted to cvs file/stdout.
- - Provides API for adding plugings for expoting game statistics to other formats.
-
-##### Author
-[Yury Krasouski]
-
-##### Version
-1.0.3
-
-[battleship]:https://en.wikipedia.org/wiki/Battleship_(game)
-[MVC]:https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
-[P2P]:https://en.wikipedia.org/wiki/Peer-to-peer
-[REST]:https://en.wikipedia.org/wiki/Representational_state_transfer
-[XML-RPC]:https://en.wikipedia.org/wiki/XML-RPC
-[JSON-RPC]:https://en.wikipedia.org/wiki/JSON-RPC
-[OOP]:https://en.wikipedia.org/wiki/Object-oriented_programming
-[PEP8]:https://www.python.org/dev/peps/pep-0008/
-[Yury Krasouski]:mailto:yury_krasouski@epam.com
